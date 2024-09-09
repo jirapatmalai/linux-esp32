@@ -1,0 +1,4 @@
+sudo groupadd dialout
+sudo gpasswd -a jirapatmalai dialout
+sudo usermod -a -G dialout jirapatmalai
+sudo chmod a+rw /dev/ttyACM0
